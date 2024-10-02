@@ -37,18 +37,19 @@ npm run dev
 
 ## Lista de exercicios
 
-# 01 
+# EX01 
 Criar uma função que verifica se já existe uma conta com aquele email no banco
 
-# 02
+# EX02
 Na rota de criação de contas signUp existe um problema, resolva.
 
-# 03
+# EX03
 Criar uma rota login, que receba os parametros email e senha e que verifique se existe no banco de dados uma conta com aquele email e senha informados. Caso exista devolver codigo 200 http e o texto "sucesso". Caso contrário http 404 e o texto "Usuário e ou senha inválidos"
 
-# 04
+# EX04
 Criar uma rota getAllAccounts que retorne uma lista de contas cadastradas (todas)
 
+##
 
 curl --location --request PUT 'http://localhost:3000/signUp' --header 'name: luis' --header 'email: admin01@gmail.com' --header 'password: 123' --header 'birthdate: 17/11/2004'
 
